@@ -1,0 +1,75 @@
+<link rel="stylesheet" type="text/css" href="Css/Style.css">
+
+<html>
+<head>
+<img height="30%" width="100%" src="Pictures/boylesports.jpg"/>
+</head>
+</html>
+
+<html>
+     <Style>
+	     ul.breadcrumb {
+         padding: 8px 16px;
+         list-style: none;
+         stylesheet = "background-color": #05097D;}
+         ul.breadcrumb li {display: inline;}
+         ul.breadcrumb li+li:before {
+         padding: 8px;
+         color: white;
+          content: "-";}
+         ul.breadcrumb li a {color: white;}
+     </Style>
+	 <div Style="background-color: #0E2361; height5%; width:100%">
+         <ul class="breadcrumb">
+         <li><a href="index.html"> Home </a></li>
+         <li><a href="aboutUs.html"> About Us </a></li>
+         <li><a href="contactUs.html"> Contact Us </a></li>
+         <li><a href="products.html"> Services </a></li>
+         <li><a href="gallery.html"> Gallery </a></li>
+		 <li><a href="order.html"> Order </a></li>	
+         </ul>
+	 </div>
+</html>
+
+<html>
+<head>
+<script src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script type="text/javascript">
+
+window.onload = function () {
+	var chart = new CanvasJS.Chart("chartContainer", {
+		theme: "theme10",
+		title:{
+			text: "Success "              
+		},
+		animationEnabled: true,   
+		data: [              
+		{
+			// Change type to "bar", "area", "spline", "pie",etc.
+			type: "spline",
+			dataPoints: [
+				{ label: "Hockey",  y: 10  },
+				{ label: "Tennis", y: 15  },
+				{ label: "Cricket", y: 25  },
+				{ label: "Racing",  y: 30  },
+				{ label: "Football",  y: 28  }
+			]
+		}
+		]
+	});
+	chart.render();
+}
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 50%; width: 100%;"></div>
+</body>
+</html>
+
+<html>
+<footer> 
+<div Style = "height 30%; width: 100%">
+<img height="30%" width="100%"  src="Pictures/2.jpg"/</div>
+ </div>
+</footer>
+</html>
